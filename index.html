@@ -7,13 +7,21 @@
 </head>
 <body>
     <div class="container">
-        <h1>Adivina el Número</h1>
+        <h1>ADIVINA EL NUMERO</h1>
         <p>He pensado un número entre 1 y 100. ¡Intenta adivinarlo!</p>
-        
-        <input type="number" id="guessInput" placeholder="Escribe tu número">
-        <button id="checkButton">Comprobar</button>
-        
+        <input type="number" id="guessInput" placeholder="SI NO ADIVINAS ERES GEI">
+        <button id="checkButton">ADIVINAR</button>
         <p id="message"></p>
+    </div>
+
+    <div class="container" id="numerodeintentos">
+        <h2>CONTEO DE INTENTOS</h2>
+         <p id="intentos">0</p>
+    </div>
+    <div class="container" id="pistas">
+        <h3>PISTAS</h3>
+        <p id="pista1">un numero mayor que </p>
+        <p id="pista2">un numero menor que </p>
     </div>
     <script src="script.js"></script>
 </body>
