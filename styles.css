@@ -21,14 +21,25 @@ body {
 }
 
 #principal {
+    width: 300px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
 
-        width: 300px;
-        max-width: 500px;
-        display: flex;
-        flex-direction: column;
-        gap: 100px; /* espacio entre h1, summary, input, button y message pero que entre h1 y summary haya menos espacio que en el resto*/
-    }
-#summary
-{
-    font-size: 25px;
+#principal h1 {
+    margin-bottom: 30px;
+}
+
+#principal #summary {
+    margin-bottom: 120px;
+    font-size: 20px;
+}
+
+#principal #guessinput {
+    margin-bottom: 90px;
+}
+
+#principal #checkButton {
+    margin-bottom: 70px;
 }
