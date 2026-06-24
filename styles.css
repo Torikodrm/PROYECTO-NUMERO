@@ -38,10 +38,33 @@ body {
 
 #principal #guessinput {
     margin-bottom: 90px;
-   background-image: ;
 }
 
 #principal #checkButton {
     margin-bottom: 70px;
     background-color: rgb(23, 78, 127);
+    border-radius: 12px;
+    
+}
+#principal #checkButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 12px 16px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+}
+
+#principal #checkButton .btn-text {
+    flex: 1;
+    text-align: center;
+}
+#principal #palmera {
+    width: 50px;
+    height: 50px;
+
+    
 }
