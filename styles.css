@@ -38,6 +38,12 @@ body {
 
 #principal #guessinput {
     margin-bottom: 90px;
+    border-radius: 12px;
+    border-color: rgb(23, 78, 127);
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    font-weight: bolder;
 }
 
 #principal #checkButton {
@@ -50,21 +56,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    padding: 12px 16px;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
+    padding: 12px 10px;
+    color: beige;
+    font-size: 16px;
+    font-weight: bolder;
     width: 100%;
 }
 
 #principal #checkButton .btn-text {
-    flex: 1;
     text-align: center;
 }
 #principal #palmera {
     width: 50px;
     height: 50px;
-
-    
 }
