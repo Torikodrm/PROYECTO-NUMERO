@@ -21,3 +21,13 @@ button.addEventListener('click', function() {
         message.textContent = "Por favor, ingresa un número válido.";
     }
 });
+
+let conteo = 0; 
+
+button.addEventListener('click', function() {
+    conteo++;
+    document.getElementById('intentos').textContent = conteo; 
+    
+    const userGuess = parseInt(input.value);
+   
+});
