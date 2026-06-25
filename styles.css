@@ -112,6 +112,19 @@ body {
     color: white;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
 }
+
+#numerodeintentos #resultado {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFD700;
+    margin-top: 15px;
+}
+
+#numerodeintentos #numeroSecreto {
+    font-size: 14px;
+    color: white;
+    margin-top: 8px;
+}
 #pistas {
     width: 200px;
     padding: 20px;
